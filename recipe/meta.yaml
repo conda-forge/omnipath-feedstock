@@ -1,5 +1,5 @@
 {% set name = "Omnipath" %}
-{% set version = "1.0.5" %}
+{% set version = "1.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
-  sha256: 16e0dd4ede915d9650d03905f71c44168299f5556e929c17631da5bfff3a6023
+  sha256: b682d355ec71a6153ec30ab25489149a543c48eaf40952ee88fc0e1e88298283
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
