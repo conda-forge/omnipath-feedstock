@@ -1,11 +1,11 @@
-About omnipath
-==============
+About omnipath-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/omnipath-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/saezlab/omnipath
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/omnipath-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client for the OmniPath web service
 
