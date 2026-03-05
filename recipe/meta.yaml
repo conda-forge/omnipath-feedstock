@@ -18,6 +18,7 @@ build:
 requirements:
   host:
     - pip
+    - hatchling
     - python {{ python_min }}
     - setuptools_scm
   run:
