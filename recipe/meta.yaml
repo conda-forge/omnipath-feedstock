@@ -1,5 +1,6 @@
 {% set name = "Omnipath" %}
 {% set version = "1.0.12" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -17,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools_scm
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - attrs >=20.2.0
     - docrep >=0.3.1
     - inflect >=4.1.0
@@ -41,6 +42,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/saezlab/omnipath
